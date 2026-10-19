@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikesh Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+   
+<nav class="navbar">
+    <a href="#home" class="logo">VK.</a>
+
+    <button class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-links">
+        ☰
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <section class="hero" id="home">
+        <div class="hero-tag">Welcome to my portfolio</div>
+
+        <h1>Hi, I'm <span>Vikesh Kumar</span></h1>
+
+        <h2>B.Tech CSE Student | Aspiring Developer</h2>
+
+        <p>
+            I'm exploring software development, Python, Java,
+            and artificial intelligence. I enjoy learning by building
+            practical projects and solving real-world problems.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="btn btn-primary">
+                View My Projects
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+                Contact Me
+            </a>
+        </div>
+    </section>
+
+<!-- ABOUT SECTION -->
+<section class="content-section" id="about">
+    <div class="section-heading">
+        <h2>About <span>Me</span></h2>
+        <p>A little about my journey and what I'm working towards.</p>
+    </div>
+
+    <div class="about-card">
+        <p>
+            I'm a Computer Science Engineering student interested in
+            software development, artificial intelligence, and
+            solving real-world problems through technology.
+        </p>
+        <p>
+            I enjoy learning by building practical projects and
+            improving my programming skills. My current focus is
+            strengthening my fundamentals and exploring AI-based
+            solutions.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="content-section" id="skills">
+    <div class="section-heading">
+        <span class="section-label">WHAT I'M LEARNING</span>
+        <h2>My <span>Skills</span></h2>
+        <p>Technologies and tools I work with or am currently learning.</p>
+    </div>
+
+    <div class="card-grid">
+        <article class="info-card">
+            <div class="card-icon">⌨️</div>
+            <h3>Programming</h3>
+            <p>Java · Python · C · C++</p>
+        </article>
+
+        <article class="info-card">
+            <div class="card-icon">🌐</div>
+            <h3>Web Development</h3>
+            <p>HTML · CSS · JavaScript</p>
+        </article>
+
+        <article class="info-card">
+            <div class="card-icon">🤖</div>
+            <h3>AI & Computer Vision</h3>
+            <p>Python · YOLO · OpenCV</p>
+        </article>
+
+        <article class="info-card">
+            <div class="card-icon">🛠️</div>
+            <h3>Developer Tools</h3>
+            <p>Git · GitHub · VS Code</p>
+        </article>
+    </div>
+</section>
+
+<!-- EDUCATION SECTION -->
+<section class="content-section" id="education">
+    <div class="section-heading">
+        <span class="section-label">MY ACADEMIC JOURNEY</span>
+        <h2><span>Education</span></h2>
+    </div>
+
+    <article class="info-card education-card">
+        <span class="section-label">EXPECTED GRADUATION: 2027</span>
+        <h3>Bachelor of Technology — Computer Science Engineering</h3>
+        <p>Nalanda College of Engineering</p>
+        <p class="muted-text">
+            Expected completion: June 2027
+        </p>
+    </article>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="content-section" id="projects">
+    <div class="section-heading">
+        <span class="section-label">WHAT I'VE BUILT</span>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Practical work that helps me turn concepts into experience.</p>
+    </div>
+
+    <div class="card-grid project-grid">
+        <article class="info-card project-card">
+            <div class="project-number">PROJECT 01</div>
+
+<div class="project-image">
+    <img
+        src="pothole-detection-demo.png"
+        alt="AI pothole detection result showing a detected pothole, 86.7% confidence, and medium estimated severity"
+        loading="lazy">
+</div>
+
+            <h3>AI-Based Pothole Detection</h3>
+            <p>
+                A computer vision project that detects potholes and
+                road cracks in images using a trained  model.
+            </p>
+
+<div class="project-details">
+    <p><strong>Problem:</strong> Identifying road damage from images.</p>
+    <p><strong>Solution:</strong> A computer vision model that detects potholes and road cracks.</p>
+    <p><strong>Features:</strong> Image detection, severity estimation.</p>
+</div>
+
+            
+        
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>YOLO</span>
+                <span>OpenCV</span>
+                <span>SQLite</span>
+            </div>
+            
+            <a
+               class="project-link"
+               href="https://github.com/vikesh341/pothole-detection"
+               target="_blank"
+               rel="noopener noreferrer">
+               View Source Code ↗
+            </a>
+
+        </article>
+
+        <article class="info-card project-card">
+            <div class="project-number">PROJECT 02</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive personal website showcasing my background,
+                technical skills, projects, and career interests.
+            </p>
+            
+            <div class="tech-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+            <a class="project-link" href="#contact">
+                Get in touch ↗
+            </a>
+        </article>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="content-section contact-section" id="contact">
+    <div class="section-heading">
+        <span class="section-label">LET'S CONNECT</span>
+        <h2>Contact <span>Me</span></h2>
+        <p>
+            Interested in collaborating, discussing technology,
+            or sharing opportunities? Find me online.
+        </p>
+    </div>
+
+    <div class="contact-links">
+        <a
+            class="btn btn-primary"
+            href="https://github.com/vikesh341"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHub ↗
+        </a>
+
+        <a
+            class="btn btn-secondary"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+            LinkedIn ↗
+        </a>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>Designed and built by Vikesh Kumar</p>
+    <p>© 2026 · Built with HTML, CSS & JavaScript</p>
+</footer>
+
+</body>
+</html>
